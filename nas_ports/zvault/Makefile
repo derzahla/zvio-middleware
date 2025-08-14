@@ -14,9 +14,7 @@
     SUBDIR += pipewatcher
     SUBDIR += py-bsd
     SUBDIR += py-cam
-    SUBDIR += py-fenced
     SUBDIR += py-kmip
-    SUBDIR += py-licenselib
     SUBDIR += py-midcli
     SUBDIR += py-middlewared
     SUBDIR += py-onedrivesdk
@@ -31,6 +29,5 @@
     SUBDIR += zvio-pkgtools
     SUBDIR += zvio-py-bsd
     SUBDIR += zvio-py-fenced
-    SUBDIR += zvio-py-licenselib
 
 .include <bsd.port.subdir.mk>
