@@ -1,10 +1,10 @@
 # $FreeBSD$
 
-PORTNAME=	zvault-pkgtools
+PORTNAME=	freenas-pkgtools
 PORTVERSION=	${PRODUCT_VERSION:C/\-.*//:C/\_.*//}
 PORTREVISION=	${REVISION}
 CATEGORIES=	freenas
-VALID_CATEGORIES+=	zvault
+VALID_CATEGORIES+=	freenas
 
 MAINTAINER=	dev@ixsystems.com
 COMMENT=	FreeNAS sef\'s pkg tools
