@@ -53,7 +53,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ws4py>0:zvault/py-ws4py@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}libvirt>0:devel/py-libvirt@${FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}zettarepl>0:sysutils/py-zettarepl@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}onedrivesdk>0:net/py-onedrivesdk@${PY_FLAVOR} \
-		${PYTHON_PKGNAMEPREFIX}fenced>0:freenas/zvio-py-fenced@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}fenced>0:zvault/zvio-py-fenced@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}alembic>0:databases/py-alembic@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sqlalchemy14>0:databases/py-sqlalchemy14@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}licenselib>0:zvault/zvio-py-licenselib@${PY_FLAVOR} \
@@ -80,8 +80,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ws4py>0:zvault/py-ws4py@${PY_FLAVOR} \
 		oath-toolkit>0:security/oath-toolkit \
 		avahi-app>0:net/avahi-app \
 		dmidecode>0:sysutils/dmidecode \
-		grub2>0:sysutils/grub2 \
-		grub2-x86_64-efi>0:sysutils/grub2-efi \
+		grub2-pcbsd>0:sysutils/grub2-pcbsd \
+		grub2--efi>0:sysutils/grub2-efi \
 		squashfs-tools>0:filesystems/squashfs-tools \
 		${PYTHON_PKGNAMEPREFIX}packaging>0:devel/py-packaging@${PY_FLAVOR} \
 		rclone>0:net/rclone \
