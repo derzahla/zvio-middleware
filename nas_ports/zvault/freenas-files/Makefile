@@ -4,8 +4,8 @@ PORTNAME=	freenas-files
 PORTVERSION=	${PRODUCT_VERSION:C/\-.*//:C/\_.*//}
 PORTREVISION=	${REVISION}
 
-CATEGORIES=	freenas
-VALID_CATEGORIES+=	freenas
+CATEGORIES=	zvault
+VALID_CATEGORIES+=	zvault
 
 MAINTAINER=	dev@ixsystems.com
 COMMENT=	miscellaneous files for FreeNAS
@@ -14,8 +14,8 @@ PREFIX=/
 
 USES= 	python
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}snmp_passpersist>=1.3.0:net-mgmt/py-snmp_passpersist \
-		${PYTHON_PKGNAMEPREFIX}middlewared>0:freenas/py-middlewared@${PY_FLAVOR} \
-		firmware>0:freenas/firmware
+		${PYTHON_PKGNAMEPREFIX}middlewared>0:zvault/py-middlewared@${PY_FLAVOR} \
+		firmware>0:zvault/firmware
 
 # explicitly set this for the port build
 FREEBSD_SRCTOP=/usr/src

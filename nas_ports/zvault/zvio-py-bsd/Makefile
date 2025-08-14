@@ -5,8 +5,8 @@ PORTVERSION=	${PRODUCT_VERSION:C/\-.*//:C/\_.*//}
 PORTREVISION=	${REVISION}
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
-CATEGORIES=	freenas
-VALID_CATEGORIES+= freenas
+CATEGORIES=	zvault
+VALID_CATEGORIES+= zvault
 
 MAINTAINER=	dev@ixsystems.com
 COMMENT=	Python wrappers for various BSD interfaces

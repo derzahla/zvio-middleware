@@ -2,8 +2,8 @@
 
 PORTNAME=	firmware
 PORTVERSION=	202102162100
-CATEGORIES=	freenas
-VALID_CATEGORIES+=	freenas
+CATEGORIES=	zvault
+VALID_CATEGORIES+=	zvault
 
 MAINTAINER=	dev@ixsystems.com
 COMMENT=	Firmware files

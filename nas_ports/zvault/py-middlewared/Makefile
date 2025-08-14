@@ -3,8 +3,8 @@ PORTVERSION=    ${PRODUCT_VERSION:C/\-.*//:C/\_.*//}
 PORTREVISION=	${REVISION}
 PKGNAMEPREFIX=  ${PYTHON_PKGNAMEPREFIX}
 
-CATEGORIES=     freenas
-VALID_CATEGORIES+= freenas
+CATEGORIES=     zvault
+VALID_CATEGORIES+= zvault
 
 MAINTAINER=     dev@ixsystems.com
 COMMENT=        FreeNAS Middleware Daemon
@@ -15,20 +15,20 @@ EXTRACT_ONLY=
 
 BUILD_DEPENDS= ${PYTHON_PKGNAMEPREFIX}fastentrypoints>0:devel/py-fastentrypoints@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}Babel>0:devel/py-babel@${PY_FLAVOR}
-RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ws4py>0:www/py-ws4py@${PY_FLAVOR} \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ws4py>0:zvault/py-ws4py@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}aiohttp>0:www/py-aiohttp@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}aiohttp-wsgi>0:www/py-aiohttp-wsgi@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}flask>0:www/py-flask@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}boto3>0:www/py-boto3@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}netif>0:net/py-netif@${PY_FLAVOR} \
-		${PYTHON_PKGNAMEPREFIX}bsd>0:freenas/zvio-py-bsd@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}bsd>0:zvault/zvio-py-bsd@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}cam>0:devel/py-cam@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sentry-sdk>0:devel/py-sentry-sdk@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}markdown>0:textproc/py-markdown@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}mako>0:textproc/py-mako@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}psutil>0:sysutils/py-psutil@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}python-ldap>0:net/py-python-ldap@${PY_FLAVOR} \
-		${PYTHON_PKGNAMEPREFIX}libzfs>0:devel/py-libzfs@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}libzfs>0:filesystems/py-libzfs@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}lockfile>0:devel/py-lockfile@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}netsnmpagent>0:devel/py-netsnmpagent@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}ntplib>0:net/py-ntplib@${PY_FLAVOR} \

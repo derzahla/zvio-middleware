@@ -4,8 +4,8 @@ PORTNAME=	freenas-installer
 PORTVERSION=	${PRODUCT_VERSION:C/\-.*//:C/\_.*//}
 PORTREVISION=	${REVISION}
 
-CATEGORIES=	freenas
-VALID_CATEGORIES+=	freenas
+CATEGORIES=	zvault
+VALID_CATEGORIES+=	zvault
 
 MAINTAINER=	dev@ixsystems.com
 COMMENT=	FreeNAS installer

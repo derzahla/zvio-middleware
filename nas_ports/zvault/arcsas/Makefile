@@ -7,8 +7,8 @@ PORTNAME=       arcsas
 PORTVERSION=    1.0
 PORTREVISION=   ${REVISION}
 
-CATEGORIES=     freenas
-VALID_CATEGORIES+=	freenas
+CATEGORIES=     zvault
+VALID_CATEGORIES+=	zvault
 
 MAINTAINER=     dev@ixsystems.com
 COMMENT=        Driver for Areca 13xx SAS HBAs

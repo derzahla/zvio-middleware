@@ -2,8 +2,8 @@ PORTNAME=	midcli
 PORTVERSION=	20190509171453
 PKGNAMEPREFIX=  ${PYTHON_PKGNAMEPREFIX}
 
-CATEGORIES=     freenas
-VALID_CATEGORIES+= freenas
+CATEGORIES=     zvault
+VALID_CATEGORIES+= zvault
 
 MAINTAINER=     dev@ixsystems.com
 COMMENT=        FreeNAS Middleware Command Line Interface
@@ -12,7 +12,7 @@ USES=		python
 USE_PYTHON=	autoplist distutils
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}fastentrypoints>0:devel/py-fastentrypoints@${FLAVOR}
-RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}middlewared>0:freenas/py-middlewared@${FLAVOR} \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}middlewared>0:zvault/py-middlewared@${FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}ply>0:devel/py-ply@${FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}prompt-toolkit>0:devel/py-prompt-toolkit@${FLAVOR}
 

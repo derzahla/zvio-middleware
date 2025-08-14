@@ -3,7 +3,7 @@
 
 PORTNAME=	throttle
 PORTVERSION=	1.2
-CATEGORIES=	sysutils
+CATEGORIES=	zvault
 MASTER_SITES=	http://download.freenas.org/distfiles/
 
 MAINTAINER=	ports@FreeBSD.org

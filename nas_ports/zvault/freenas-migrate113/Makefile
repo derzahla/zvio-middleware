@@ -3,8 +3,8 @@
 PORTNAME=	freenas-migrate113
 PORTVERSION=	2020000000
 PORTREVISION=	7
-CATEGORIES=	freenas
-VALID_CATEGORIES+=	freenas
+CATEGORIES=	zvault
+VALID_CATEGORIES+=	zvault
 
 MAINTAINER=	dev@ixsystems.com
 COMMENT=	Tool to upgrade to 11.3 database

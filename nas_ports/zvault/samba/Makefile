@@ -4,7 +4,7 @@
 PORTNAME=			${SAMBA4_BASENAME}
 PORTVERSION=			${SAMBA4_VERSION}
 PORTREVISION=		 	1
-CATEGORIES?=			net
+CATEGORIES?=			zvault net
 DISTNAME=			${SAMBA4_DISTNAME}
 USE_LOCALE=			en_US.UTF-8
 
@@ -133,7 +133,7 @@ PLIST_SUB+=			CLUSTER="@comment "
 SUB_LIST+=			CLUSTER="@comment "
 # Needs ZFS to build, if not built in base we'll bring in ZoL
 .if !exists(/sbin/zpool)
-BUILD_DEPENDS+=			openzfs>=0:sysutils/openzfs
+BUILD_DEPENDS+=			openzfs>=0:filesystems/openzfs
 .endif
 # XXX: Unconditional dependencies which can't be switched off(if present in the system)
 # popt

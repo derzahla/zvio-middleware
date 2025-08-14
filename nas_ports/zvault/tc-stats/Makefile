@@ -4,8 +4,8 @@ PORTNAME=	tc-stats
 PORTVERSION=	0.1.8
 DISTVERSIONPREFIX=	v
 
-CATEGORIES=	freenas
-VALID_CATEGORIES+=	freenas
+CATEGORIES=	zvault
+VALID_CATEGORIES+=	zvault
 
 MAINTAINER=	dev@ixsystems.com
 COMMENT=	TrueCommand Stats Collection Engine

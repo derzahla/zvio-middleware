@@ -3,8 +3,8 @@
 PORTNAME=	swagger-ui
 PORTVERSION=	3.3.2
 
-CATEGORIES=		freenas
-VALID_CATEGORIES+=	freenas
+CATEGORIES=		zvault
+VALID_CATEGORIES+=	zvault
 
 MAINTAINER=	dev@ixsystems.com
 COMMENT=	OpenAPI spec renderer UI
