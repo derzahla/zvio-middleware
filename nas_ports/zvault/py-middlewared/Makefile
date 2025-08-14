@@ -81,7 +81,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ws4py>0:zvault/py-ws4py@${PY_FLAVOR} \
 		avahi-app>0:net/avahi-app \
 		dmidecode>0:sysutils/dmidecode \
 		grub2-pcbsd>0:sysutils/grub2-pcbsd \
-		grub2--efi>0:sysutils/grub2-efi \
+		grub2-efi>0:sysutils/grub2-efi \
 		squashfs-tools>0:filesystems/squashfs-tools \
 		${PYTHON_PKGNAMEPREFIX}packaging>0:devel/py-packaging@${PY_FLAVOR} \
 		rclone>0:net/rclone \
