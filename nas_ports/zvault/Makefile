@@ -12,7 +12,6 @@
     SUBDIR += node9
     SUBDIR += npm5
     SUBDIR += pipewatcher
-    SUBDIR += py-bsd
     SUBDIR += py-cam
     SUBDIR += py-kmip
     SUBDIR += py-midcli
