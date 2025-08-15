@@ -19,6 +19,7 @@
     SUBDIR += py-onedrivesdk
     SUBDIR += py-ws4py
     SUBDIR += py-zettarepl
+    SUBDIR += py-libzfs
     SUBDIR += samba
     SUBDIR += scanlnk
     SUBDIR += swagger-ui
