@@ -1,7 +1,7 @@
 PORTNAME=	libzfs
 PORTVERSION=	1.1.2025011401
 PORTREVISION=	1
-CATEGORIES=	filesystems devel python
+CATEGORIES=	zvault filesystems devel python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	zahl@ded.haus
