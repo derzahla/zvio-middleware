@@ -6,7 +6,7 @@ CATEGORIES=	filesystems sysutils
 MASTER_SITES=   https://github.com/openzfs/zfs/releases/download/zfs-${PORTVERSION}/
 DISTNAME=	zfs-${DISTVERSION}
 
-MAINTAINER=	mm@FreeBSD.org,zahl@ded.haus
+MAINTAINER=	mm@FreeBSD.org
 COMMENT=	OpenZFS userland for FreeBSD and zVault
 WWW=		https://github.com/openzfs/zfs
 
