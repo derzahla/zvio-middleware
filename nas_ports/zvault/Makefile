@@ -13,6 +13,7 @@
     SUBDIR += npm5
     SUBDIR += pipewatcher
     SUBDIR += py-cam
+    SUBDIR += py-fenced
     SUBDIR += py-kmip
     SUBDIR += py-midcli
     SUBDIR += py-middlewared
@@ -28,6 +29,5 @@
     SUBDIR += zvio-licenselib
     SUBDIR += zvio-pkgtools
     SUBDIR += zvio-py-bsd
-    SUBDIR += zvio-py-fenced
 
 .include <bsd.port.subdir.mk>
