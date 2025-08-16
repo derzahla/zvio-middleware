@@ -11,6 +11,4 @@ COMMENT=	A pipe bandwidth throttling utility
 
 GNU_CONFIGURE=	yes
 
-PLIST_FILES=	bin/throttle man/man1/${PORTNAME}.1.gz
-
 .include <bsd.port.mk>
