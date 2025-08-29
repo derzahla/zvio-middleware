@@ -16,26 +16,8 @@ post-install()
                 mkdir -p /data
         fi
 
-        env FREENAS_INSTALL=yes /usr/local/sbin/migrate93 -f /data/freenas-v1.db
-        # Lets be evil here and kill pkg(8) if this fails
-        # because pkg does not check return code of POST-INSTALL script
-        if [ $? -ne 0 ]; then
-                /usr/bin/procstat -h $$|awk '{print $2}'|xargs kill -9
-        fi
-
-        env FREENAS_INSTALL=yes /usr/local/sbin/migrate113 -f /data/freenas-v1.db
-        # Same as before
-        if [ $? -ne 0 ]; then
-                /usr/bin/procstat -h $$|awk '{print $2}'|xargs kill -9
-        fi
-
-        env FREENAS_INSTALL=yes /usr/local/sbin/migrate
-        # Same as before
-        if [ $? -ne 0 ]; then
-                /usr/bin/procstat -h $$|awk '{print $2}'|xargs kill -9
-        fi
-
         cp /data/freenas-v1.db /data/factory-v1.db
+        exit 0
 }
 
 backupwarning()

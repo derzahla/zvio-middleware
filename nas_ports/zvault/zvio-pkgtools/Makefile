@@ -1,6 +1,6 @@
 # $FreeBSD$
 
-PORTNAME=	freenas-pkgtools
+PORTNAME=	zvio-pkgtools
 PORTVERSION=	${PRODUCT_VERSION:C/\-.*//:C/\_.*//}
 PORTREVISION=	${REVISION}
 CATEGORIES=	zvault

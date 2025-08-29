@@ -55,7 +55,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ws4py>0:zvault/py-ws4py@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}onedrivesdk>0:zvault/py-onedrivesdk@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}fenced>0:zvault/py-fenced@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}alembic>0:databases/py-alembic@${PY_FLAVOR} \
-		${PYTHON_PKGNAMEPREFIX}sqlalchemy14>0:databases/py-sqlalchemy14@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}sqlalchemy20>0:databases/py-sqlalchemy20@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}licenselib>0:zvault/zvio-licenselib@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}simplejson>0:devel/py-simplejson@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}sqlparse>0:databases/py-sqlparse@${PY_FLAVOR} \
@@ -71,7 +71,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ws4py>0:zvault/py-ws4py@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}html2text>0:textproc/py-html2text@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}passlib>0:security/py-passlib@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}aws-requests-auth>0:devel/py-aws-requests-auth@${PY_FLAVOR} \
-		freenas-pkgtools>0:zvault/zvio-pkgtools \
+		zvio-pkgtools>0:zvault/zvio-pkgtools \
 		freenas-migrate93>0:zvault/freenas-migrate93 \
 		freenas-migrate113>0:zvault/freenas-migrate113 \
 		tc-stats>0:zvault/tc-stats \
@@ -89,7 +89,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}ws4py>0:zvault/py-ws4py@${PY_FLAVOR} \
 		iftop>0:net-mgmt/iftop \
 		intel-pcm>0:sysutils/intel-pcm \
 		pyvmomi>0:net/py-pyvmomi \
-		samba>=0:zvault/samba \
+		samba420>=0:net/samba420 \
 		swagger-ui>0:zvault/swagger-ui \
 		wireguard-tools>0:net/wireguard-tools
 
